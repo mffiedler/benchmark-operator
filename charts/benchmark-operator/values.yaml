@@ -18,12 +18,12 @@ operator:
   replicaCount: 1
 
   image:
-    repository: quay.io/cloud-bulldozer/benchmark-operator
+    repository: docker.io/cloud-bulldozer/benchmark-operator
     pullPolicy: Always
     tag: latest
 
   redisImage:
-    repository: bitnami/redis
+    repository: quay.io/arm64v8/redis
     pullPolicy: Always
     tag: latest
 
